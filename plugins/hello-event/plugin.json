@@ -1,0 +1,14 @@
+{
+  "id": "hello-event",
+  "type": "code",
+  "apiVersion": 1,
+  "version": "0.1.0",
+  "name": "最小事件示例",
+  "description": "最小示例：只有一个权限（events.read），把收到的事件类型写进宿主日志，不发送、不存储、不联网。",
+  "entry": "index.mjs",
+  "permissions": ["events.read"],
+  "capabilities": [],
+  "risk": "low",
+  "license": "MIT",
+  "author": "VRlink"
+}

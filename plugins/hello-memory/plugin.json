@@ -1,0 +1,14 @@
+{
+  "id": "hello-memory",
+  "type": "code",
+  "apiVersion": 1,
+  "version": "0.1.0",
+  "name": "记忆小本",
+  "description": "示例插件：按角色记一条事；当前只是清单/权限示例，尚未由插件宿主执行。",
+  "entry": "index.mjs",
+  "permissions": ["events.read", "memory.write", "storage"],
+  "capabilities": ["memory.add"],
+  "risk": "low",
+  "license": "MIT",
+  "author": "VRlink"
+}

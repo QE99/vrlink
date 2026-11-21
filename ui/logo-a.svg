@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VRlink 标志 A：一条鱼">
+  <rect width="64" height="64" rx="14" fill="#111111"/>
+  <path d="M14 33c6.5-9.5 15-12.5 23-6.5 3-2.4 7-4.2 12-4.2-2.2 5-5 8-5 10.2 0 2.2 2.8 5.2 5 10.2-5 0-9-1.8-12-4.2-8 6-16.5 3-23-6.5Z" fill="#ededed"/>
+  <circle cx="25" cy="30.5" r="2.4" fill="#111111"/>
+  <path d="M39 47c4.5-5 9-7 15-7" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="54" cy="40" r="3.2" fill="#4ade80"/>
+</svg>

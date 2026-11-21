@@ -1,0 +1,35 @@
+{
+  "name": "vrlink-v2",
+  "version": "0.6.6",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "vrlink-v002 — one consciousness, many bodies, plugin-first core",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "mcp": "node src/mcp-server.mjs",
+    "acp": "node src/acp-server.mjs",
+    "onebot": "node src/adapters/onebot-bridge.mjs",
+    "bili": "node src/adapters/bilibili-bridge.mjs",
+    "import:dshpet": "node tools/import-dshpet.mjs",
+    "check:connections": "node tools/check-connections.mjs",
+    "check:edition": "node tools/check-edition.mjs",
+    "migrate:sign": "node tools/migrate-signing.mjs",
+    "migrate:v1": "node tools/migrate-from-v1.mjs",
+    "pack:plugin": "node tools/plugin-pack.mjs",
+    "federation": "node tools/federation-cli.mjs",
+    "courier": "node tools/courier-server.mjs",
+    "accept:m1": "node tools/m1-acceptance.mjs",
+    "accept:m2": "node tools/m2-acceptance.mjs",
+    "e2e": "node tools/e2e-acceptance.mjs",
+    "smoke:local": "node tools/smoke-local.mjs",
+    "smoke:api": "node tools/smoke-api.mjs",
+    "test": "node --test --test-force-exit --test-concurrency=1 tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}

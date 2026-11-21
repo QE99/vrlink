@@ -1,0 +1,14 @@
+{
+  "id": "template",
+  "type": "code",
+  "apiVersion": 1,
+  "version": "0.1.0",
+  "name": "插件模板",
+  "description": "最小可运行模板：读事件、记数到自己的存储、回一条消息。复制这个目录开始写你自己的 VRlink v2 插件。",
+  "entry": "index.mjs",
+  "permissions": ["events.read", "messages.send", "storage"],
+  "capabilities": [],
+  "risk": "low",
+  "license": "MIT",
+  "author": "VRlink"
+}

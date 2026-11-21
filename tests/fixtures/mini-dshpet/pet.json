@@ -1,0 +1,15 @@
+﻿{
+  "format": "dsh-pet",
+  "formatVersion": 1,
+  "id": "mini-test",
+  "name": "小测试",
+  "version": "1.0.0",
+  "author": "VRlink tests",
+  "description": "测试用 DSH Pet Pack",
+  "canvas": { "width": 32, "height": 32 },
+  "assets": { "main": { "path": "atlas.png", "width": 32, "height": 32 } },
+  "thumbnail": "atlas.png",
+  "animations": "animations.json",
+  "fallbacks": { "idle": "mini:idle", "working": "mini:idle", "attention": "mini:idle", "success": "mini:idle", "error": "mini:idle" },
+  "capabilities": []
+}

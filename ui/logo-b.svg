@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VRlink 标志 B：节点鱼">
+  <rect width="64" height="64" rx="14" fill="#111111"/>
+  <g stroke="#a3a3a3" stroke-width="1.6" opacity=".9">
+    <path d="M16 34 25 24M16 34 25 44M25 24 36 22M25 44 36 46M36 22 44 32M36 46 44 32M44 32 53 38M44 32 53 26"/>
+  </g>
+  <g fill="#ededed">
+    <circle cx="16" cy="34" r="3.4"/>
+    <circle cx="25" cy="24" r="4.2"/>
+    <circle cx="25" cy="44" r="4.2"/>
+    <circle cx="36" cy="22" r="3.2"/>
+    <circle cx="36" cy="46" r="3.2"/>
+    <circle cx="44" cy="32" r="5"/>
+    <circle cx="53" cy="38" r="3.2"/>
+    <circle cx="53" cy="26" r="3.2"/>
+  </g>
+  <circle cx="44" cy="32" r="1.9" fill="#111111"/>
+  <circle cx="25" cy="24" r="1.6" fill="#4ade80"/>
+</svg>

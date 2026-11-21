@@ -1,0 +1,39 @@
+VRlink v0.6.6 · Windows 快速开始
+================================
+
+1. 安装
+   双击 VRlink-v0.6.6-*-setup.exe，按提示安装。
+   默认装到当前用户目录，不需要管理员权限。
+
+2. 启动
+   双击桌面/开始菜单的 VRlink。
+   首次启动会在安装目录下生成 data\（身份、Agent、聊天、记忆都在这里）。
+   也可以在浏览器打开 http://127.0.0.1:5274/
+
+3. 建一个 Agent
+   点右上「+」→「新建对象」，填名字和人设。
+   大脑可选：mock（占位，最快）/ local（本机模型）/ api（自备 Key）。
+
+4. 三个安装包怎么选
+   Lite：约 40MB，默认 mock；想用真模型需自己接本地 llama-server 或云端 API。
+   Standard：约 1.1GB，自带 llama-server + Qwen2.5-1.5B，可离线跑本地模型。
+   Downloader：约 40MB，首次运行「下载本地模型.cmd」再下载模型/运行时。
+
+5. Standard / Downloader 用本地模型
+   Standard：开始菜单「VRlink（本地模型）」或安装目录 start-local.cmd。
+   Downloader：先运行「下载本地模型.cmd」，下载完成会自动启动。
+   然后在「新建对象」里把大脑选为 local。
+   停止模型：start-local 同目录的 stop-local.cmd。
+
+6. 卸载
+   设置 → 应用 → VRlink → 卸载。
+   卸载默认保留 data\（你的角色/聊天/身份）；要彻底删除请手动删 data\ 和 backups\。
+
+7. 出问题先看
+   .runtime\hub.out.log / .runtime\hub.err.log
+   .runtime\llama.out.log / .runtime\llama.err.log
+   端口 5274（界面）/ 5275（组网）/ 12345（本地模型）是否被占用。
+
+8. 免费与许可
+   VRlink 代码 MIT；名称/Logo/官方身份保留；游戏内容另许可见 TRADEMARK.md / CONTENT-LICENSE.md。
+   官方不卖安装包；如果你付了钱，你买的是第三方安装/支持服务。

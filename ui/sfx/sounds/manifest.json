@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "sampleRate": 48000,
+  "channels": 1,
+  "license": "CC0-1.0",
+  "sounds": [
+    {
+      "id": "ui_click",
+      "name": "点击（主）",
+      "file": "ui_click.wav",
+      "category": "click",
+      "gain": 0.55,
+      "ms": 32.0,
+      "usage": "按钮/卡片/列表项按下"
+    },
+    {
+      "id": "ui_click_soft",
+      "name": "轻点",
+      "file": "ui_click_soft.wav",
+      "category": "click",
+      "gain": 0.4,
+      "ms": 38.0,
+      "usage": "次要按钮、图标按钮"
+    },
+    {
+      "id": "ui_hover",
+      "name": "悬停",
+      "file": "ui_hover.wav",
+      "category": "hover",
+      "gain": 0.2,
+      "ms": 22.0,
+      "usage": "鼠标/射线指到可交互物"
+    },
+    {
+      "id": "ui_dede",
+      "name": "嘚嘚（双响）",
+      "file": "ui_dede.wav",
+      "category": "character",
+      "gain": 0.6,
+      "ms": 180.0,
+      "usage": "进频道/选中角色/开麦提示，视频里那种两声"
+    },
+    {
+      "id": "ui_confirm",
+      "name": "确认（上行）",
+      "file": "ui_confirm.wav",
+      "category": "confirm",
+      "gain": 0.5,
+      "ms": 233.0,
+      "usage": "保存成功、接受邀请、开始对话"
+    },
+    {
+      "id": "ui_cancel",
+      "name": "取消（下行）",
+      "file": "ui_cancel.wav",
+      "category": "cancel",
+      "gain": 0.45,
+      "ms": 219.0,
+      "usage": "关闭面板、撤回操作"
+    },
+    {
+      "id": "ui_error",
+      "name": "错误",
+      "file": "ui_error.wav",
+      "category": "error",
+      "gain": 0.5,
+      "ms": 175.0,
+      "usage": "请求失败、密钥缺失、连接断开"
+    },
+    {
+      "id": "ui_notify",
+      "name": "通知铃",
+      "file": "ui_notify.wav",
+      "category": "notify",
+      "gain": 0.55,
+      "ms": 526.0,
+      "usage": "新消息、被 @、后台提醒"
+    },
+    {
+      "id": "ui_msg_in",
+      "name": "收到消息",
+      "file": "ui_msg_in.wav",
+      "category": "chat",
+      "gain": 0.45,
+      "ms": 48.0,
+      "usage": "对方消息落地的气泡音"
+    },
+    {
+      "id": "ui_msg_out",
+      "name": "发出消息",
+      "file": "ui_msg_out.wav",
+      "category": "chat",
+      "gain": 0.32,
+      "ms": 96.0,
+      "usage": "自己发送的气流音"
+    },
+    {
+      "id": "ui_room_join",
+      "name": "进入房间",
+      "file": "ui_room_join.wav",
+      "category": "room",
+      "gain": 0.55,
+      "ms": 676.0,
+      "usage": "进入 VR 空间/频道/私聊"
+    },
+    {
+      "id": "ui_room_leave",
+      "name": "离开房间",
+      "file": "ui_room_leave.wav",
+      "category": "room",
+      "gain": 0.5,
+      "ms": 686.0,
+      "usage": "退出空间/挂断"
+    },
+    {
+      "id": "ui_toggle_on",
+      "name": "开关·开",
+      "file": "ui_toggle_on.wav",
+      "category": "toggle",
+      "gain": 0.35,
+      "ms": 87.0,
+      "usage": "麦克风开、免打扰关"
+    },
+    {
+      "id": "ui_toggle_off",
+      "name": "开关·关",
+      "file": "ui_toggle_off.wav",
+      "category": "toggle",
+      "gain": 0.35,
+      "ms": 87.0,
+      "usage": "麦克风关、静音"
+    },
+    {
+      "id": "ui_warp",
+      "name": "传送/切场景",
+      "file": "ui_warp.wav",
+      "category": "space",
+      "gain": 0.45,
+      "ms": 756.0,
+      "usage": "瞬移、切换场景、加载完成"
+    },
+    {
+      "id": "ui_page",
+      "name": "翻页",
+      "file": "ui_page.wav",
+      "category": "page",
+      "gain": 0.3,
+      "ms": 58.0,
+      "usage": "翻页、切换 tab 的纸感噪声"
+    },
+    {
+      "id": "ui_ready",
+      "name": "就绪",
+      "file": "ui_ready.wav",
+      "category": "ready",
+      "gain": 0.5,
+      "ms": 676.0,
+      "usage": "角色加载完成、连接建立"
+    }
+  ]
+}

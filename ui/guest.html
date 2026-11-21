@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content" />
+  <title>VRlink · 只读访客</title>
+  <link rel="stylesheet" href="/v2.css" />
+  <style>
+    .guest-page { max-width: 760px; margin: 0 auto; padding: 28px 18px 60px; }
+    .guest-brand { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 20px; margin-bottom: 18px; }
+    .guest-brand .icon { color: var(--accent); width: 24px; height: 24px; }
+    .guest-banner { border: 1px solid #4a3d18; background: #2a2413; color: var(--amber); border-radius: 10px; padding: 9px 12px; font-size: 10px; margin-bottom: 16px; }
+    .guest-card { padding: 18px; margin-bottom: 12px; }
+    .guest-head { display: flex; align-items: center; gap: 13px; }
+    .guest-head .avatar { width: 52px; height: 52px; font-size: 20px; }
+    .guest-head h1 { margin: 0; font-size: 26px; }
+    .guest-head p { margin: 4px 0 0; color: var(--muted); font-size: 11px; }
+    .guest-event { display: flex; gap: 10px; padding: 10px 0; border-top: 1px solid var(--border-soft); }
+    .guest-event:first-child { border-top: 0; }
+    .guest-event .time { color: var(--dim); font-size: 9px; white-space: nowrap; }
+    .guest-event .text { color: var(--muted); font-size: 12px; white-space: pre-wrap; }
+    .guest-foot { color: var(--dim); font-size: 9px; line-height: 1.7; margin-top: 18px; }
+    .guest-error { padding: 24px; text-align: center; color: var(--muted); }
+    .guest-loading { padding: 40px; text-align: center; color: var(--dim); }
+  </style>
+</head>
+<body>
+  <main class="guest-page">
+    <div class="guest-brand">VRlink <span class="pill warn">只读访客</span></div>
+    <div id="guest" class="guest-loading">正在读取隔离间…</div>
+    <div class="guest-foot">
+      这是节点主人分享的只读页面：只能看公开生活流，不能聊天、不能看记忆、不能操作设备。<br />
+      链接过期或主人撤销后会自动失效。
+    </div>
+  </main>
+  <script type="module" src="/guest.js"></script>
+</body>
+</html>
+
